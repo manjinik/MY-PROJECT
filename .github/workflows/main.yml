@@ -5,10 +5,11 @@ jobs:
     runs-on:  windows-latest
     steps:
       - name:  Welcome
-        run:  echo "My first Job"
+        run:  echo "My first Job
       - name:  Second Step
         run:  echo "Second Job"
   second-job:
+     needs:  first-job
      runs-on:  windows-latest
      steps:
       - name:  Job2Step1
