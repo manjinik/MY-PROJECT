@@ -5,6 +5,6 @@ jobs:
     runs-on:  windows-latest
     steps:
       - name:  Welcome
-        run:  echo "My first Job"
+        run:  echo "My first Job
       - name:  Second Step
         run:  echo "Second Job"
