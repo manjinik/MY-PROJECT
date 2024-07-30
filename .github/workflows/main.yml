@@ -8,3 +8,12 @@ jobs:
         run:  echo "My first Job"
       - name:  Second Step
         run:  echo "Second Job"
+  second-job:
+     runs-on:  windows-latest
+     steps:
+      - name:  Job2Step1
+        run:  echo "My Second Job"
+      - name:  Job2Step2
+        run:  echo "Steps"
+     
+        
