@@ -1,0 +1,10 @@
+name:  First Workflow
+on:  workflow_dispatch
+jobs:
+  first-job:
+    runs-on:  windows-latest
+    steps:
+      - name:  Welcome
+        run:  echo "My first Job"
+      - name:  Second Step
+        run:  echo "Second Job"
